@@ -63,16 +63,21 @@ main > .tagline {
 }
 
 .portfolio > a {
-	color: #fff;
+	color: #303F9F;
+	background:#fff;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	text-decoration: none;
 	transition: all 500ms ease; 
 }
 
 .portfolio > a:hover {
-	color: #303F9F;
-	background:#fff;
+	color: #fff;
+	background:#717bbd;
 	padding-left: 20px;
 	padding-right: 20px;
+	border-radius: 10px;
 }
 
 .icons-social i {
